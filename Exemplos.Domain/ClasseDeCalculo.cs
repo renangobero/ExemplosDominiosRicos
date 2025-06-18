@@ -12,17 +12,17 @@ namespace Exemplos.Domain
         public void Iniciar()
         {
 
-            var valorDividir = 0;
+            var valorDivisao = 2;
             var valor = 10;
             var novoValor = valor * 100;
-            var novoValorDivido = novoValor / valorDividir;
+            var novoValorDividido = valorDivisao != 0 ? novoValor / valorDivisao : 0;
 
             Console.WriteLine(valor.ToString("n2"));
             Console.WriteLine(novoValor.ToString("n2"));
-            Console.WriteLine(novoValorDivido.ToString("n2"));
+            Console.WriteLine(novoValorDividido.ToString("n2"));
 
-            Console.WriteLine("Classe iniciad");
-            Console.WriteLine("Obrgado!!!");
+            Console.WriteLine("Classe iniciada");
+            Console.WriteLine("Obrigado!!!");
 
         }
     }
