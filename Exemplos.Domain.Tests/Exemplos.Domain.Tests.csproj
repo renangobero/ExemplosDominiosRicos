@@ -50,7 +50,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="UnitTest1.cs" />
+    <Compile Include="ClasseDeCalculoTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Exemplos.Domain\Exemplos.Domain.csproj">
+      <Project>{7D1A65EC-C550-4A50-926D-392C168E7DBF}</Project>
+      <Name>Exemplos.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
